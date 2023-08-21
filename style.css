@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif
+  }
+  
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    background-color:#0074D9;
+    align-items:center;
+    padding: 10px 20px;
+    position:sticky;
+    top:0px
+  
+  }
+  .logo a{
+    color:white;
+    font-size:24px;
+    text-decoration:none
+  }
+  .nav-links{
+    list-style:none;
+    display:flex;
+    
+  }
+  .nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:16px
+  }
+  .nav-links li{
+    margin-right:20px
+  }
+  
+  .nav-links a:hover{
+    color:red
+  }
+  .lead{
+    text-align:center;
+    padding:50px 0
+  }
+  .prs{
+    display:flex;
+    justify-content:space-between
+  }
+  .prs p{
+    padding:0 10px
+  }
+  .middle{
+    display: flex;
+    justify-content: center;
+    height:300px;
+  }
+  .middlediv1{
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+    
+  }
+  .middlediv1{
+    width: 330px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 10px;
+  }
+  .middlediv2{
+    background: #158de8;
+    color: #fff;
+    text-shadow: none;
+  }
+  .middlediv2{
+    width: 330px;
+    height: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+  }
+  .middlediv3{
+    background: #2b3136;
+    color: #fff;
+    text-shadow: none;
+  }
+  .middlediv3{
+    width: 330px;
+    height: 250px;
+    margin-left: 5px;
+    margin-right: 50px;
+    padding-left: 10px;
+  }
+  .title{
+    color:#00b39b;
+    margin-left: 50px;
+  }
+  .back{
+    background-color: #8fdbc3;
+  }
